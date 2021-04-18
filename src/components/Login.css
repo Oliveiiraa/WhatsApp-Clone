@@ -1,0 +1,26 @@
+body {
+    background-color: #fff;
+}
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login button {
+    border: 1px solid #385898;
+    background-color: transparent;
+    padding: 30px 60px;
+    border-radius: 40px;
+    color: #385898;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.login button:hover {
+    background-color: #385898;
+    color: #fff;
+}

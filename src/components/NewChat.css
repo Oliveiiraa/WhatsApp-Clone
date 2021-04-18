@@ -1,0 +1,76 @@
+.newChat {
+    width: 35%;
+    height: 100vh;
+    max-width: 415px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #DDD;
+    transition: all ease 0.3s;
+}
+
+.newChatHead{
+    display: flex;
+    background-color: #00BFA5;
+    align-items: center;
+    padding: 60px 15px 15px 15px;
+}
+
+.newChatBackButton {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.newChatHeadTitle {
+    font-size: 19px;
+    height: 40px;
+    line-height: 40px;
+    flex: 1;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.newChatList {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.newChatList::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+  }
+  
+.newChatList::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+.newChatItem {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.newChatItem:hover {
+    background-color: #f5f5f5;
+}
+
+.newChatItemAvatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.newChatItemName {
+    font-size: 17px;
+    color: #000;
+}
